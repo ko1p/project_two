@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.comments__content-title {
+		line-height: 65px;
+		margin-bottom: 8px;
+	}
+}

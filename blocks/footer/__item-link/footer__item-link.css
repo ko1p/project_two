@@ -1,0 +1,22 @@
+.footer__item-link {
+	display: inline;
+	margin-right: 15px;
+}
+
+.footer__item-link:last-child {
+	margin-right: 0;
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	.footer__item-link {
+		display: flex;
+		align-items: space-between;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+	.footer__item-link {
+		display: flex;
+		align-items: space-between;
+	}
+}

@@ -1,0 +1,40 @@
+.places {
+	max-width: 984px;
+	margin: 0 auto 80px auto;
+	font-family: 'Inter', 'Arial', sans-serif;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.places {
+		width: 100%;
+		margin: 104px auto 80px auto;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.places {
+		width: 100%;
+		margin: 104px auto 80px auto;
+	}
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	.places {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	.places {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+	.places {
+		width: 100%;
+		margin: 0 auto;
+	}
+}

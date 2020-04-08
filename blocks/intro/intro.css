@@ -1,0 +1,25 @@
+@import url(./__title/intro__title.css);
+@import url(./__content/intro__content.css);
+@import url(./__span-accent/intro__span-accent.css);
+@import url(./__text/intro__text.css);
+@import url(./__info/intro__info.css);
+
+.intro {
+	max-width: 985px;
+	margin: 0 auto;
+	font-family: 'Inter', 'Arial', sans-serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.into {
+		margin: 0 auto;
+		max-width: 720px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+	.into {
+		margin: 0 auto;
+		max-width: 288px;
+	}
+}

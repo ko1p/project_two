@@ -1,0 +1,51 @@
+@import url(./__content-title/comments__content-title.css);
+@import url(./__content-subtitle/comments__content-subtitle.css);
+@import url(./__container/comments__container.css);
+@import url(../comment/comment.css);
+
+.comments {
+	max-width: 1184px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 75px;
+	font-family: 'Inter', 'Arial', sans-serif;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.comments {
+		margin-top: 81px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.comments {
+		max-width: 660px;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	.comments {
+		max-width: 443px;
+		text-align: center;
+		margin-top: 34px;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	.comments {
+		max-width: 343px;
+		text-align: center;
+		margin-top: 34px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+	.comments {
+		max-width: 288px;
+		text-align: center;
+		margin-top: 59px;
+	}
+}

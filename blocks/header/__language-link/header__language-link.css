@@ -1,0 +1,12 @@
+.header__language-link {
+	color: #FFF;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.header__language-link:hover {
+	opacity: 0.7;
+	transition: 1s;
+}
+
+

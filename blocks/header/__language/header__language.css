@@ -1,0 +1,31 @@
+.header__language {
+	list-style-type: none;
+	margin: 0;
+	font-size: 24px;
+	line-height: 23px;
+	height: 25px;
+}
+
+.header__language:nth-of-type(2) {
+	margin-left: 18px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	.header__language {
+		font-size: 18px;
+		line-height: 96.82%;
+	}
+	.header__language:nth-of-type(2) {
+		margin-left: 23px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+	.header__language {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.header__language:nth-of-type(2) {
+		margin-left: 19px;
+	}
+}

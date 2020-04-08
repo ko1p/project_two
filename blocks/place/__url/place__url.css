@@ -1,0 +1,27 @@
+.place__url {
+	color: #FFF;
+	width: 460px;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	transition: 1s;
+}
+
+.place__url:hover {
+	transform: translateX(10px);
+	transition: transform 1s;
+	opacity: 0.7;
+	transition: 1s;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.place__url {
+		left: -14px;
+	}
+}
+
+
+
+    

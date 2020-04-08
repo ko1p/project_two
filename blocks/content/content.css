@@ -1,0 +1,26 @@
+.content {
+	max-width: 92.5%;
+	margin: 0 auto;
+	font-family: 'Inter', 'Arial', sans-serif;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.content {
+		max-width: 928px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.content {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	.content {
+		max-width: 343px;
+		margin: 0 auto;
+	}
+}
